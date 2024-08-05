@@ -6,54 +6,33 @@
 
 TON Grants Program is aimed at providing initial support for ambitious teams to kick off product development or migrate a successful existing product to TON from another blockchain.
 
-According to our current strategy, we prioritise projects that have a potential to activate and onboard the mass audience of Telegram into TON and web3. It means such products need to have a strong social element, easy onboarding and good UX to effectively attract and retain the user.
+According to our current strategy, we prioritise **DeFi and Infrastructure projects**, as well as **consumer apps** that have a potential to activate and onboard the mass audience of Telegram into TON and web3. It means such products need to have a strong social element, easy onboarding and good UX to effectively attract and retain the user. 
 
-Apart from that, we always welcome initiatives that help enhance the TON overall infrastructure & especially the DeFi landscape, facilitate the deployment of and interaction across DApps and Telegram Mini Apps, bring a unique value to the ecosystem and attract users and financial value from outside of TON.
+In oder to leverage the potential of Telegram, we usually expect consumer facing apps, including DeFi products, to be built in the form of **Telegram Mini Apps** with the use of TON. That said, standalone Decentralised Applications with a clear strategy for onboarding Telegram users are welcome too. We also appreciate projects that facilitate the deployment of and interaction across Telegram Mini Apps and DApps on TON. 
 
-It is important to note that we do not support products that fail to show the unique value proposition and are identical to the ones that already exist on TON. Instead, we focus on novel innovative business cases, even if within the same product vertical, but that promise to disrupt the landscape and have a clear marketing strategy to deliver that.
+Moreover, for B2C projects, the presence of on-chain mechanics in your app is obligatory if you plan to apply for a grant. Therefore, the integration of [TON Connect](https://docs.ton.org/develop/dapps/ton-connect/overview) and the description of the planned on-chain activity must be a crucial element of your grant milestones. 
 
-Applicants are thus invited to carefully study the [TON Ecosystem map](https://github.com/ton-society/ecosytem-map) as the first obligatory step in the application process.
+It is important to note that we do not support products that fail to show the **unique value proposition** and are identical to the ones that already exist on TON. Instead, we focus on novel innovative business cases, even if within the same product vertical, but that promise to disrupt the landscape and have a clear marketing strategy to deliver that.
+
+Applicants are thus invited to carefully study the App Leaderboard of [The Open League](https://ton.org/open-league?filterBy=forProjects) and the [TON Ecosystem map](https://github.com/ton-society/ecosytem-map) as the first obligatory step in the application process to better understand the landscape of existing TON Dapps.
 
 # Grant Categories
 
 Projects that align with the following priority categories have an increased likelihood of receiving grant support from the TON Foundation:
 
-## 1️⃣ Telegram Mini Apps: Social Web3 Use Cases
-
-This category is mostly about B2C applications inside Telegram with a clear vision of how to use the social potential of Telegram, achieve virality and retain the user. Please note that the use of TON in your DApp is a mandatory requirement and that your focus should be on activating web2 users and bringing them on-chain.
-
-This category includes but is not limited to:
-
-- **SocialFi**: Telegram Mini Apps (TMA) that help creators monetize their social media content (e.g., FriendTech-like cases or a tool that helps crypto channel owners earn on sharing successful trades/new token launches)
-- **E-commerce:** marketplaces of digital and physical goods with viral social tools for onboarding and retaining the user like sharing, gifting, or group buying (e.g. Kaikai-like platforms)
-- **Utility**: daily use TMA that fulfil some functional needs and necessarily use web3 to improve the UX of daily use cases (e.g., Calendar, Task tracker)
-- **Community & Brand management**: tools aimed at engaging communities inside Telegram (e.g., Loyalty programs, Ticketing)
-- **Onboarding platforms:** Telegram Mini Apps that provide a simple way into web3 through the use of [@wallet](https://t.me/wallet) and/or self-custody TON wallets and through engaging users to perform simple tasks (e.g., Quests, Educational apps).
-
-### 1.1. Initial Deployment
-
-Directed to developing and deploying the Proof of Concept with the integration of [TON Connect](https://docs.ton.org/develop/dapps/ton-connect/overview) and/or @wallet ([Wallet Pay](https://pay.wallet.tg/)).
-
-**Grant size: up to $10K in TON**
-
-### 1.2. Live Non-TON-based Projects with Substantial Traction
-
-Directed to moving a project that is live on another blockchain to TON in the form of a TMA and transferring the user base. The grant amount in this case will depend on DAU, MAU, TVL, transaction volume and other relevant metrics. For example, for GameFi & Social DApps, we would prioritise products with DAU>5K, MAU>20K, R1 > 25%, R7 > 10%, R14 > 5%.
-
-**Grant size: up to $50K in TON**
-
-## 2️⃣ DeFi
+## 1️⃣ DeFi
 
 While TON boasts strong and successful DeFi protocols, DApps and Telegram Mini Apps, there is always space for new innovative solutions in the ecosystem. 
 
 The list of what we are looking for **includes but is not limited to**: 
 
-- Lending protocols
-- Derivatives DEXs
-- DEXs with weighted pools (like Balancer.fi)
-- Yield aggregators
-- Liquidity layers
-- Restaking
+- Lending 
+- CFMMs, CLMMs
+- CDPs 
+- Routers 
+- Yield farming (vaults, leverage yield farming)
+- Yield tokenisation 
+- Synthethics 
 
 The size of grant for this category depends on the TVL of the protocol on the chain where it’s already deployed and on the experience of the team. There are therefore 4 tiers of DeFi grants*:
 
@@ -107,11 +86,35 @@ The size of grant for this category depends on the TVL of the protocol on the ch
 
 *the above-listed thresholds are indicative and are subject to change.
 
+## 2️⃣ Telegram Mini Apps: Social Web3 Use Cases
+
+This category is mostly about B2C applications inside Telegram with a clear vision of how to use the social potential of Telegram, achieve virality and retain the user. Please note that the use of TON in your DApp is a mandatory requirement and that your focus should be on activating web2 users and bringing them on-chain.
+
+This category includes but is not limited to:
+
+- **SocialFi**: Telegram Mini Apps (TMA) that help creators monetize their social media content (e.g., FriendTech-like cases or a tool that helps crypto channel owners earn on sharing successful trades/new token launches)
+- **E-commerce:** marketplaces of digital and physical goods with viral social tools for onboarding and retaining the user like sharing, gifting, or group buying (e.g. Kaikai-like platforms)
+- **Utility**: daily use TMA that fulfil some functional needs and necessarily use web3 to improve the UX of daily use cases (e.g., Calendar, Task tracker)
+- **Community & Brand management**: tools aimed at engaging communities inside Telegram (e.g., Loyalty programs)
+- **Onboarding platforms:** Telegram Mini Apps that provide a simple way into web3 through the use of [@wallet](https://t.me/wallet) and/or self-custody TON wallets and through engaging users to perform simple tasks (e.g., Quests, Educational apps).
+
+### 1.1. Initial Deployment
+
+Directed to developing and deploying an MVP. Please note that an ideal proposal includes at least a clickable Figma prototype with good quality design and the results of your hypothesis validation (launch of an early prototype, user interviews, etc). 
+
+**Grant size: up to $10K in TON**
+
+### 1.2. Live Non-TON-based Projects with Substantial Traction
+
+Directed to moving a project that is live on another blockchain to TON and transferring the user base. The grant amount in this case will depend on DAU, MAU, TVL, transaction volume and other relevant metrics. For example, for GameFi & Social DApps, we would prioritise products with DAW>10K, MAW>50K, R1 > 25%, R7 > 10%, R14 > 5%.
+
+**Grant size: up to $50K in TON**
+
 ## 3️⃣ GameFi
 
 This category is designed for Web3 games with easy onboarding, viral social mechanics, referral programs, elements of competition (squads, leaderboards, group challenges) and exciting gameplay. While the focus is on games in the form of Telegram Mini Apps, standalone games for PC or mobile are welcome to apply too. 
 
-Please note that this Grants Program does not support clicker games that merely replicate the functionality of Notcoin or similar apps but rather focuses on games with new and innovative mechanics and gameplay. 
+Please note that this Grants Program **does not support clicker games** that merely replicate the functionality of Notcoin or similar apps but rather focuses on games with new and innovative mechanics and gameplay. 
 
 **Grant size: up to $10K in TON for initial deployment and up to $50K in TON for an existing game with sustainable metrics.**
 
@@ -137,7 +140,7 @@ This grant category is dedicated to supporting educational programs that train d
 
 ## 5️⃣ Other
 
-This broad category consists of open-source technical projects; commercial projects that improve the TON infrastructure, including the deployment and interaction across DApps and Telegram Mini Apps, and products of other verticals (trading bots, NFT tooling, AI, etc). 
+This broad category consists of open-source technical projects; commercial projects that improve the TON infrastructure, including the deployment and interaction across DApps and Telegram Mini Apps, and products of other verticals (NFT tooling, AI, etc). 
 
 We kindly ask the teams applying for this grant category to do very thorough research on the current infrastructural & business landscape of TON before submitting an application. Make sure your solution is technically feasible and can greatly enhance the ecosystem.
 
